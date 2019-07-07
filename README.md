@@ -38,4 +38,4 @@ for(auto & aNeighbor: neighbors) {
 
 Bifrost is intended for use with 3D data, however, it can be easily be used for 2D indexes, simply set the 3rd element in your index to zero.
 
-*Note:* When performing neighbor search, if there is a value matching the index being queried, it will be included in the returned list.
+**Note:** When performing neighbor search, if there is a value matching the index being queried, it will be included in the returned list.
