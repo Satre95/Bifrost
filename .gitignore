@@ -65,3 +65,4 @@ _deps
 .history
 
 # End of https://www.gitignore.io/api/c++,cmake,visualstudiocode
+build
