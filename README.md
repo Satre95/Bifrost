@@ -39,3 +39,6 @@ for(auto & aNeighbor: neighbors) {
 Bifrost is intended for use with 3D data, however, it can be easily be used for 2D indexes, simply set the 3rd element in your index to zero.
 
 **Note:** When performing neighbor search, if there is a value matching the index being queried, it will be included in the returned list.
+
+## Why Bifrost?
+In the Marvel universe, the Bifrost is a device that Thor and other Asgardians use to to travel nearly instantaneously between locations in the universe. The time taken to travel between any two locations is always the same and is not affected by the size of the universe or the location being travelled to...
