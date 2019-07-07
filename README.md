@@ -7,7 +7,7 @@ Bifrost is a spatial hash table implementation that allows for _O(1)_ average in
   - That's it!
 
 ## Using Bifrost
-Bifrost is implemented using a standard `Key`-`Value` storage symantic. The only constraint that Bifrost places on the use is that keys must support the `operator[]` overload, and must have 3 members indexed using that operator. Below is an example for an custom arbitrary type.
+Bifrost is implemented using a standard `Key`-`Value` storage symantic. The only constraint that Bifrost places on the developer is that keys must support the `operator[]` overload, and must have 3 members indexed using that operator. Below is an example for a custom type.
 
 ~~~
 struct short3 {
@@ -25,6 +25,7 @@ Bifrost<short3, SomeObjectType> bifrost;
 short3 index;
 SomeObjectType someObject;
 //... Init your Key and Value
+
 bifrost.Insert(index, someObject);
 ~~~
 
