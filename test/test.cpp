@@ -13,6 +13,16 @@ int main() {
     std::vector<float> neighbors;
     hashtable.Neighbors(key1, neighbors);
 
+    assert(neighbors.size() > 1);
+
+    neighbors.clear();
+    glm::vec3 key3(-20.f, 32.f, 100.f);
+    float val3 = 2005.f;
+    hashtable.Insert(key3, val3);
+    hashtable.Neighbors(key3, neighbors);
+    
+    assert(neighbors.size() == 1);
+
 
     return 0;
 }
